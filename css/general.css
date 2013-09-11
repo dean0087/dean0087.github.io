@@ -1,0 +1,123 @@
+@-moz-viewport{ width: device-width; scale: 1;}
+@-ms-viewport{ width: device-width; scale: 1;}
+@-o-viewport{ width: device-width; scale: 1;}
+@-webkit-viewport{ width: device-width; scale: 1;}
+@viewport{ width: device-width; scale: 1;}
+
+html{
+	background-image:url(../img/black_twill.png);
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 2em;
+	color: #BC0005;
+	text-align:center;
+}
+
+p {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #333;
+}
+
+.mainArt {
+	float:left;
+	background-color:#FFF;
+	width:100%;
+	
+	padding: 0.75em;
+	margin-bottom: 1em;
+	
+	box-shadow: 0px .2em .75em #333;
+}
+
+.headerImage {
+	width: 100%;
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+	margin-bottom:-3px;	
+}
+
+.icon{
+	width:30%;
+}
+
+@media only screen and (min-width:25em) {
+	.headerImage {
+	width: 50%;
+	
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+	margin-bottom:-3px;	
+}
+	
+.icon{
+	width:30%;
+}
+
+.sm{
+	margin: 0 auto;
+	width:50%;
+}
+
+}
+
+@media only screen and (min-width:60em) {
+.headerImage {
+	width: 30%;
+	float:left;
+	margin: 0;
+}
+
+.mainArt{
+	width:67.7%;
+	float:right;
+	margin:0;
+}
+	
+.icon{
+	width:30%;
+}
+
+.sm{
+	margin: 0 auto;
+	width:50%;
+}
+
+}
+
+
+@media only screen and (min-width:110em) {
+.headerImage {
+	width: 30%;
+	float:left;
+	margin: 0;
+}
+
+.mainArt{
+	width:30%;
+	float:left;
+	margin:0;
+}
+	
+.icon{
+	width:30%;
+}
+
+.sm{
+	margin: 0 auto;
+	width:30%;
+	float: right;
+}
+
+}
